@@ -1,0 +1,13 @@
+#PPcontents{max-width: 100%;}
+#topContents{display: flex;flex-direction: column;justify-content: space-between; max-width: 100%;max-height: 800px;}
+
+#topContents .PPTtopText{max-width: 1180px; margin: 0 auto; display: flex; align-items: flex-end; justify-content: space-between; padding-top: 100px;}
+#topContents .PPTtopText #ppHeading{font-size: 40px; font-weight: 700!important;}
+#topContents .PPTBottomText{max-width: 100%; border-top: 1px solid #fff;border-bottom: 1px solid #fff;}
+#topContents .PPTBottomText .btBox{max-width: 1180px; height: 232px; min-height: 200px; margin: 0 auto; display: flex; border-left: 1px solid #fff;border-right: 1px solid #fff;}
+#topContents .PPTBottomText .btBox .pbBox{padding: 32px; max-width: 33.33%; border-right: 1px solid #fff;}
+#topContents .PPTBottomText .btBox .pbBox:last-child{max-width: 33.33%; border-right: 0px;}
+#fHeading{font-weight: 700!important; font-size: 16px; margin-bottom: 8px; color: #fff;}
+.rTextBox{font-weight: 400; font-size: 16px; color: #fff;}
+.pbFlexBox{display: flex;}
+.pbFlexBox .rTextBox:first-child{width:33%}
